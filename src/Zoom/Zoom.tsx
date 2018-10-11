@@ -16,7 +16,7 @@ export default class Zoom extends React.Component<{}, IZoomState> {
         this.setState({
             isLoading: false,
             hasError: false,
-            username: null,
+            username: "",
             url: null
         });
     }
@@ -36,6 +36,7 @@ export default class Zoom extends React.Component<{}, IZoomState> {
                                     className="zoom__username input"
                                     placeholder="Benutzername eingeben ..."
                                     onChange={this.handleInputChange}
+                                    value={this.state.username}
                                     required
                                     autoFocus={true}
                                 />
@@ -119,7 +120,7 @@ export default class Zoom extends React.Component<{}, IZoomState> {
         event.preventDefault();
 
         this.setState({
-            username: null,
+            username: "",
             url: null
         })
     }
