@@ -1,0 +1,13 @@
+@import "../node_modules/bulma/bulma.sass";
+
+.header {
+    background-color: $white;
+    border-bottom: 1px solid $light;
+    padding: $box-padding;
+
+    &__logo {
+        height: 25px;
+        line-height: 0;
+        margin-bottom: -8px;
+    }
+}

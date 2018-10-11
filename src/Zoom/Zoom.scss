@@ -1,0 +1,23 @@
+@import "../../node_modules/bulma/bulma.sass";
+
+.zoom {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+    &__inner {
+        background-color: $white;
+        border-radius: $radius;
+        padding: $box-padding;
+    }
+
+    &__modal {
+        background-color: $white;
+        border-radius: $radius;
+        padding: $box-padding;
+    }
+
+    &__image {
+        padding-top: $box-padding;
+        padding-bottom: $box-padding;
+    }
+}

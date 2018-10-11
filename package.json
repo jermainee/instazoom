@@ -1,0 +1,30 @@
+{
+  "name": "instazoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode='production' --optimize-minimize",
+    "dev": "webpack --mode='development' --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "webpack": "^4.15.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "bulma": "0.7.1"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "sass-loader": "^7.0.3",
+    "ts-loader": "^4.4.2",
+    "node-sass": "^4.9.2",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.9.2",
+    "webpack-cli": "^3.0.8"
+  }
+}
