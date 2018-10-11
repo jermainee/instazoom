@@ -1,6 +1,7 @@
 @import "../../node_modules/bulma/bulma.sass";
 
 .zoom {
+    max-width: 620px;
     margin-top: 20vh;
     margin-bottom: 20vh;
 
@@ -8,6 +9,7 @@
         background-color: $white;
         border-radius: $radius;
         padding: $box-padding;
+        box-shadow: 0 0px 8px 0 rgba(0,0,0,0.25);
     }
 
     &__modal {
