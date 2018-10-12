@@ -47,7 +47,7 @@ export default class Zoom extends React.Component<{}, IZoomState> {
                         </div>
 
                         <button
-                            className={`button is-primary is-fullwidth ${this.state.isLoading ? "is-loading" : ""}`}
+                            className={`button is-success is-fullwidth ${this.state.isLoading ? "is-loading" : ""}`}
                             onClick={this.handleButtonClick}
                         >
                             Profilbild vergrößern
